@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+}
+
+#automat {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	top: 5.23%;
+	left: 5.18%;
+	width: 89.64%;
+	height: 89.54%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgb(167, 166, 166);
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.83vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+}
+#ausgabe {
+	padding: 20px 0px;
+}
+
+.faecher {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	'number_one number_two number_three number_four'
+	'number_five number_six number_seven number_eight'
+	'number_nine number_ten number_eleven number_twelve'
+	'number_thirteen number_fourteen number_fifteen number_sixteen';
+	gap: 10px;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	top: 5%;
+	left: 1%;
+	width: 60%;
+	height: 90%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgb(255, 255, 255);
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2vw;
+	padding: 20px;
+	margin: 0px;
+	opacity: .5;
+	user-select: none;
+	text-align: left;
+}
+
+
+.number_one{
+	grid-area: number_one;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_two{
+	grid-area: number_two;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_three{
+	grid-area: number_three;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_four{
+	grid-area: number_four;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_five{
+	grid-area: number_five;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_six{
+	grid-area: number_six;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_seven{
+	grid-area: number_seven;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_eight{
+	grid-area: number_eight;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_nine{
+	grid-area: number_nine;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_ten{
+	grid-area: number_ten;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_eleven{
+	grid-area: number_eleven;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_twelve{
+	grid-area: number_twelve;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_thirteen{
+	grid-area: number_thirteen;
+	opacity: 0.6;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_fourteen{
+	grid-area: number_fourteen;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_fifteen{
+	grid-area: number_fifteen;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+.number_sixteen{
+	grid-area: number_sixteen;
+	height:100%;
+	background-image: url(https://picsum.photos/536/354);
+}
+
+#display {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items:flex-start;
+	position: absolute;
+	box-sizing: border-box;
+	
+	top: 5%;
+	left: 64%;
+	width: 25%;
+	height: 44.81%;
+	z-index: 9;
+	color: rgb(15, 250, 15);
+	overflow: hidden;
+	background-color: rgb(78, 78, 78);
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 20px;
+	font-family: 'Share Tech Mono',Arial, Helvetica, sans-serif;
+	font-size: 1.2vw;
+	padding: 20px 10px;
+	margin: 0px;
+	user-select: none;
+}
+
+.buttons {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	height: 14.37%;
+	z-index: 9;
+	color: rgb(126, 123, 123);
+	overflow: hidden;
+	background-color: rgb(158, 230, 146);
+	border: solid rgb(146, 141, 141) 0px;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.8vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 1px;
+}
+.buttons:hover {
+	background-color: rgba(159, 230, 146, 0.801);
+}
+
+#auswahl_fachnummer {
+	border: 0px solid;
+	background-color: rgb(78,78,78);
+	color: rgb(15, 250, 15);
+	font-size: 1vw;
+	line-height: 1.3vw;
+	width: 30%;
+}
+
+#bedienfeld {
+	display: flex;
+	position: absolute;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	top: 55%;
+	left: 64%;
+	width: 25%;
+	height: 40%;
+	z-index: 9;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+	background-color: rgb(133, 132, 132);
+	border: solid rgb(0, 0, 0) 0px;
+	border-radius: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2vw;
+	padding: 0px;
+	margin: 0px;
+	user-select: none;
+	box-shadow: inset 2px 2px 15px;
+}
+#b7 {
+	top: 10%;
+	left: 13%;
+	width: 15%;
+}
+
+#b9 {
+	top: 10%;
+	left: 57%;
+	width: 15%;
+}
+
+#ENTER {
+	top: 70%;
+	left: 57%;
+	width: 15%;
+}
+
+#b3 {
+	top: 50%;
+	left: 57%;
+	width: 15%;
+}
+
+#b0 {
+	top: 70%;
+	left: 35%;
+	width: 15%;
+}
+
+#b6 {
+	top: 30%;
+	left: 57%;
+	width: 15%;
+}
+
+#b2 {
+	top: 50%;
+	left: 35%;
+	width: 15%;
+}
+
+#b5 {
+	top: 30%;
+	left: 35%;
+	width: 15%;
+}
+
+#b1 {
+	top: 50%;
+	left: 13%;
+	width: 15%;
+}
+
+#b4 {
+	top: 30%;
+	left: 13%;
+	width: 15%;
+}
+
+#C {
+	top: 70%;
+	left: 13%;
+	width: 15%;
+}
+
+#b8 {
+	top: 10%;
+	left: 35%;
+	width: 15%;
+}
+.btnFaecher{
+	
+	width:100%;
+	height: 100%;
+	border: 2px solid black;
+
+}
+
+.p_button {
+	padding-left: 10px;
+	font-weight: 700;
+}
+
+#service {
+	position: absolute;
+	top: 70%;
+	left: 79%;
+	width: 15%;
+	background-color: aqua;
+	text-align: center;
+	padding: 4px;
+}
+
+
+#geldeinwurf{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	left: 92%;
+	top: 5%;
+	width: 80px;
+	height: 90%;
+	border: 0px solid;
+	
+}
+
+#zwei_euro{
+	
+	background-color: silver;
+	border: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+#geldeinwurf p {
+	font-size: 14px;
+}
+
+#ein_euro{
+	
+	background-color: silver;
+	border: none;
+	width: 45px;
+	height: 45px;
+	border-radius: 22.5px;
+}
+
+#fuenfzig_cent{
+	background-color: goldenrod;
+	border: none;
+	width: 45px;
+	height: 45px;
+	border-radius: 22.5px;
+}
+#zwanzig_cent{
+	background-color: goldenrod;
+	border: none;
+	width: 35px;
+	height: 35px;
+	border-radius: 17.5px;
+
+}
+#zehn_cent{
+	background-color: goldenrod;
+	border: none;
+	width: 28px;
+	height: 28px;
+	border-radius: 14px;
+}
+
