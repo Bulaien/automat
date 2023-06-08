@@ -110,7 +110,7 @@ fach = [
     {
         Fach: 10,
         Sorte: 'Kakao',
-        Preis: '1.05',
+        Preis: '1.10',
         vorhanden: 3
     },
     {
